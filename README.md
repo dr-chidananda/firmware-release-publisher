@@ -1,4 +1,5 @@
 ![Docker Image CI](https://github.com)
+
 # Firmware Release Publisher
 
 The publisher lives in `environment/publisher/release-publisher.mjs`. Run it with
