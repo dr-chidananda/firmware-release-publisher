@@ -1,0 +1,17 @@
+# Signing keypairs. In the real task these are generated inside the container by
+# environment/Dockerfile; run-local.sh recreates them locally. Never commit them.
+environment/keys/
+
+# Node dependencies
+node_modules/
+
+# DuckDB database created at run time
+*.duckdb
+*.duckdb.wal
+
+# Gateway runtime ledger (the .gitkeep placeholder stays tracked)
+environment/distribution-gateway/data/*.json
+
+# Logs and OS noise
+*.log
+.DS_Store
