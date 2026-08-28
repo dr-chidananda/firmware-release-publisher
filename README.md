@@ -1,4 +1,4 @@
-![Docker Image CI](https://github.com)
+![Docker Image CI](https://github.com/dr-chidananda/firmware-release-publisher/actions/workflows/docker-image.yml/badge.svg)
 
 # Firmware Release Publisher
 
